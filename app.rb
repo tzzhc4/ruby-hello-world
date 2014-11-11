@@ -7,7 +7,7 @@ set :port, 8080
 
 configure do
   puts "Running app file"
-  puts "Create database..."
+  puts "Creatdddde database..."
   %x"rake db:create"
   puts "Run migrations..."
   %x"rake db:migrate"
